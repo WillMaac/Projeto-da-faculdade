@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Navbar*/
+nav {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  padding: 20px;
+  border: 2px;
+  background-color: rgba(0, 0, 0, 0.979);
+  box-shadow: 0 4px 8px rgb(4, 94, 129);
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+a:hover {
+  color: rgba(4, 94, 129);
+}
+
+.list-bar {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+.items {
+  justify-content: space-between;
+}
+/*Home*/
+.title-name {
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 0px rgba(2, 183, 255, 0.712);
+}
+.description {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-shadow: 0 2px 0px rgba(2, 183, 255, 0.712);
+}
+
+span {
+  color: blue;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  min-height: 50vh;
+}
+.perfil {
+  width: 300px;
+  height: 300px;
+  border-radius: 205px;
+  object-fit: cover;
+}
+
+/*Seção sobre */
+#sobre {
+  text-align: center;
+}
+
+#sobre h1 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  border-bottom: 2px solid #043dda;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+#sobre p {
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/*Seção habilidades*/
+#habilidades {
+  text-align: center;
+  font-size: 30px;
+}
+
+#habilidades h2 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  border-bottom: 2px solid #043dda;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+li img{
+    width: 50px;
+    list-style: none;
+    margin-top: 80px;
+}
+.list-hability {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  
+}
+
+/*Seção Projetos*/
+
+#projetos {
+  text-align: center;
+  
+}
+#projetos h2{
+    font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  border-bottom: 2px solid #043dda;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; 
+  padding: 40px;
+}
+.project-1{
+    width: 575px;
+}
+.project-2{
+    width: 560px;
+    height: 600px;
+}
+
+.card-1, .card-2 {
+  width: 600px;
+  border: 2px solid #000;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+font-family: 'poppins',sans-serif;
+}
+
+/*Informações extras*/
+aside{
+    text-align: center;
+    background-color: #1e293b;
+  color: #f8fafc;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+aside p{
+    font-size: 20px;
+  font-weight: 500;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.list-rede{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+    padding: 0;
+}
+
+.list-rede img {
+  width: 30px;
+  height: auto;
+}
+
+.list-rede li a{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+aside h2{
+    font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  border-bottom: 2px solid #043dda;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.list-rede a:hover {
+  text-decoration: underline;
+}
+
+/* Seção Rodapé*/
+
+footer {
+  text-align: center;
+}
+
+footer h3 {
+ font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  border-bottom: 2px solid #043dda;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+footer p {
+  color: #1778ee;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  align-items: center;
+}
+
+.link-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 12px 20px;
+  border-radius: 8px;
+  width: 30%;      
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.link-item:hover {
+  background-color: #334155;
+}
+
+.link-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link-arrow {
+  font-size: 16px;
+}
+
+footer .copyright {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-top: 20px;
+}
+
